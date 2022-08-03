@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sudoku</title>
+    <link href="index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class = "grid-container">
+        <input id = "1" type="text" >
+        <input id = "2" type="text" >
+        <input id = "3" type="text" >
+        <input id = "4" type="text" >
+        <input id = "5" type="text" >
+        <input id = "6" type="text" >
+        <input id = "7" type="text" >
+        <input id = "8" type="text" >
+        <input id = "9" type="text" >
+        <input id = "10" type="text" >
+        <input id = "11" type="text" >
+        <input id = "12" type="text" >
+        <input id = "13" type="text" >
+        <input id = "14" type="text" >
+        <input id = "15" type="text" >
+        <input id = "16" type="text" >
+        <input id = "17" type="text" >
+        <input id = "18" type="text" >
+        <input id = "19" type="text" >
+        <input id = "20" type="text" >
+        <input id = "21" type="text" >
+        <input id = "22" type="text" >
+        <input id = "23" type="text" >
+        <input id = "24" type="text" >
+        <input id = "25" type="text" >
+        <input id = "26" type="text" >
+        <input id = "27" type="text" >
+        <input id = "28" type="text" >
+        <input id = "29" type="text" >
+        <input id = "30" type="text" >
+        <input id = "31" type="text" >
+        <input id = "32" type="text" >
+        <input id = "33" type="text" >
+        <input id = "34" type="text" >
+        <input id = "35" type="text" >
+        <input id = "36" type="text" >
+        <input id = "37" type="text" >
+        <input id = "38" type="text" >
+        <input id = "39" type="text" >
+        <input id = "40" type="text" >
+        <input id = "41" type="text" >
+        <input id = "42" type="text" >
+        <input id = "43" type="text" >
+        <input id = "44" type="text" >
+        <input id = "45" type="text" >
+        <input id = "46" type="text" >
+        <input id = "47" type="text" >
+        <input id = "48" type="text" >
+        <input id = "49" type="text" >
+        <input id = "50" type="text" >
+        <input id = "51" type="text" >
+        <input id = "52" type="text" >
+        <input id = "53" type="text" >
+        <input id = "54" type="text" >
+        <input id = "55" type="text" >
+        <input id = "56" type="text" >
+        <input id = "57" type="text" >
+        <input id = "58" type="text" >
+        <input id = "59" type="text" >
+        <input id = "60" type="text" >
+        <input id = "61" type="text" >
+        <input id = "62" type="text" >
+        <input id = "63" type="text" >
+        <input id = "64" type="text" >
+        <input id = "65" type="text" >
+        <input id = "66" type="text" >
+        <input id = "67" type="text" >
+        <input id = "68" type="text" >
+        <input id = "69" type="text" >
+        <input id = "70" type="text" >
+        <input id = "71" type="text" >
+        <input id = "72" type="text" >
+        <input id = "73" type="text" >
+        <input id = "74" type="text" >
+        <input id = "75" type="text" >
+        <input id = "76" type="text" >
+        <input id = "77" type="text" >
+        <input id = "78" type="text" >
+        <input id = "79" type="text" >
+        <input id = "80" type="text" >
+        <input id = "81" type="text" >
+        <br>
+    </div>
+    <button onclick="start()" id ="but"> ANSWER</button>    
+    </div>
+    <div id = "Board">
+        <p id = "row 1"></p>
+        <p id = "row 2"></p>      
+        <p id = "row 3"></p>
+        <p id = "row 4"></p>  
+        <p id = "row 5"></p>
+        <p id = "row 6"></p>  
+        <p id = "row 7"></p>
+        <p id = "row 8"></p>  
+        <p id = "row 9"></p>       
+    </div>
+    <script>
+        const placeHolder = " [] "
+        for (var i = 1; i <= 9; i++){
+            document.getElementById("row " + String(i)).innerHTML = placeHolder +  "\xa0\xa0\xa0\xa0\xa0\xa0" + placeHolder + "\xa0\xa0\xa0\xa0\xa0\xa0" + placeHolder + "\xa0\xa0\xa0\xa0\xa0\xa0" + placeHolder + "\xa0\xa0\xa0\xa0\xa0\xa0" + placeHolder + "\xa0\xa0\xa0\xa0\xa0\xa0" + placeHolder + "\xa0\xa0\xa0\xa0\xa0\xa0" +  placeHolder + "\xa0\xa0\xa0\xa0\xa0\xa0" +  placeHolder + "\xa0\xa0\xa0\xa0\xa0\xa0" + placeHolder
+        }
+    </script>
+    <script src = "index.js"></script>
+</body>
+</html>
